@@ -3,4 +3,4 @@ https://www.udemy.com/course/ios-13-app-development-bootcamp/
 
 ## Projects
 
-...to be continued
+1. [Getting started: I Am Rich app](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/I%20Am%20Rich)
