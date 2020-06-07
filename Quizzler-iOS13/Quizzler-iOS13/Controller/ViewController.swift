@@ -12,10 +12,11 @@ import Foundation
 class ViewController: UIViewController {
     
     @IBOutlet weak var questionLabel: UILabel!
-    @IBOutlet weak var trueButton: UIButton!
-    @IBOutlet weak var falseButton: UIButton!
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var firstButton: UIButton!
+    @IBOutlet weak var secondButton: UIButton!
+    @IBOutlet weak var thirdButton: UIButton!
     
     var questionModel = QuestionModel()
     
@@ -38,13 +39,19 @@ class ViewController: UIViewController {
     }
     
     func updateQuestion() {
-        trueButton.backgroundColor = UIColor.clear
-        falseButton.backgroundColor = UIColor.clear
+        questionModel.nextQuestion()
+        
+        firstButton.backgroundColor = UIColor.clear
+        secondButton.backgroundColor = UIColor.clear
+        thirdButton.backgroundColor = UIColor.clear
         updateScore()
         
         progressBar.progress = questionModel.getProgress()
         questionLabel.text = questionModel.getQuestion()
-        questionModel.nextQuestion()
+        let options = questionModel.getOptions()
+        firstButton.setTitle(options[0], for: UIControl.State.normal)
+        secondButton.setTitle(options[1], for: UIControl.State.normal)
+        thirdButton.setTitle(options[2], for: UIControl.State.normal)    
     }
     
     func updateScore() {
