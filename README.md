@@ -13,6 +13,7 @@ https://www.udemy.com/course/ios-13-app-development-bootcamp/
 ## Exercise
 
 1. [Magic 8 Ball](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Magic-8-Ball-iOS13)
+2. [Destini](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Destini-iOS13)
 
 
 ## Useful Links
