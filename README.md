@@ -15,6 +15,7 @@ https://www.udemy.com/course/ios-13-app-development-bootcamp/
 
 1. [Magic 8 Ball](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Magic-8-Ball-iOS13)
 2. [Destini](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Destini-iOS13)
+3. [Tipsy](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Tipsy-iOS13/Tipsy)
 
 
 ## Useful Links
