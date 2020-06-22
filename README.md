@@ -9,6 +9,7 @@ https://www.udemy.com/course/ios-13-app-development-bootcamp/
 4. [Egg Timer](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/EggTimer-iOS13)
 5. [Quizzler](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Quizzler-iOS13)
 6. [BMI Calculator](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/BMI-Calculator-iOS13)
+7. [Clima](https://github.com/LenkaHao/ios-app-bootcamp/tree/master/Clima-iOS13) :star2:
 
 
 ## Exercise
