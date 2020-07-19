@@ -24,3 +24,4 @@ https://www.udemy.com/course/ios-13-app-development-bootcamp/
 
 - Generate app icons: https://appicon.co/#app-icon
 - Generate image assets: https://appicon.co/#image-sets
+- Convert colors to UIColor: https://www.uicolor.io/#/hex-to-ui
